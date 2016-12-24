@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	  <title>Page Not Found</title>
+      <style type="text/css">
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	background: #fff;
+	}
+
+#wrap {
+	margin: 120px auto;
+	padding: 36px 48px;
+	width: 450px;
+	text-align: center;
+	background: #fff;
+	}
+
+h1 {
+	margin: 0 0 15px 0;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #eee;
+	font-size: 28px;
+	font-weight: normal;
+	color: #222;
+	line-height: 1.5em;
+	}
+
+p {
+	margin: 10px 0;
+	font-size: 12px;
+	font-weight: normal;
+	color: #777;
+	line-height: 1.5em;
+	}
+
+a	{
+	text-decoration: none;
+	}
+
+a:link, a:visited {
+	color: #8eac1a;
+	}
+
+a:hover, a:active {
+	color: #708c00;
+	}
+	
+      </style>
+	</head>
+	<body>	
+		<div id="wrap">
+			<h1>Page Could Not Be Found.<br/>Sorry for the inconvenience. </h1>
+			<p><a href="/">&laquo; go back to home page</a></p>
+		</div>
+	</body>
+</html>
