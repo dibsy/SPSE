@@ -18,7 +18,7 @@ class WorkerThread(threading.Thread):
 
 queue = Queue.Queue()
 
-for i in range(10):
+for i in range(11):
 	print "Creating WorkerThread :%d" %i
 	worker = WorkerThread(queue)
 	worker.setDaemon(True)
