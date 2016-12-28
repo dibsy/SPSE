@@ -1,7 +1,7 @@
 # SPSE
 ## SPSE - Securitytube Python Scripting Expert Course Problems Solution
 
-===================Module 2 : System Programming And Security=============================
+### ===================Module 2 : System Programming And Security=============================
 
 1.File Handling - Done
 2.Directory Navigation - Done
@@ -46,7 +46,7 @@ shutdown after listening to port for 100 seconds
 =================================================================
 
 
-===========================Module 3: Network Programming And Security===========================
+### ===========================Module 3: Network Programming And Security===========================
 
 1. Client Server Programming Basics
 2. Socket Server Framework
@@ -56,10 +56,10 @@ Projects
     Create a Multi-Process Echo Server
     Create a Non-Blocking Multiplexed Echo Server using Select()
 
-=========================================================================================
+### =============================Module 4 : Web Application Security==================================
 
 
-Module 4 : Web Application Security
+
 Part 1: Fetching Web Pages
 Part 2: Parsing HTML
 Part 3: Coding a Screen Scraper
@@ -111,7 +111,7 @@ Research on .quote() and .quote_plus() and illustrate how they can help
 ============================================================================
 
 
-Module 7: Automation In Python
+### ========================================Module 7: Automation In Python========================================
 
 1.Using Pexpect
 2.SSH AutoMation with Paramiko - Done
@@ -119,7 +119,7 @@ Module 7: Automation In Python
 4.SFTP with Paramiko - 
 5.Automating Nmap - Done - Do some exercise with metasploitable1/2
 
-Module 8: Further Study and Projects
+### Module 8: Further Study and Projects
 1. Project 1
 2. Project 2
 3. Project 3
@@ -147,7 +147,7 @@ import/exports, disassembly, strings etc.
 •Basically a powerful Level 1 binary analysis tool before you put the EXE into a debugger
 =================================================================
 
-Module 9: Exam pattern And Mock Exam
+### ========================================Module 9: Exam pattern And Mock Exam========================================
 1. Mock Sample 1
 2. Mock Sample 2
 3. Mock Sample 3 
