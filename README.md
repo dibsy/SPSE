@@ -1,20 +1,13 @@
 # SPSE
-SPSE - Securitytube Python Scripting Expert Course Problems Solution
+## SPSE - Securitytube Python Scripting Expert Course Problems Solution
+#### The SecurityTube Python Scripting Expert (SPSE) is an online certification which will help you gain mastery over Python scripting and its application to problems in computer and network security. This course is ideal for penetration testers, security enthusiasts and network administrators who want to learn to automate tasks or go beyond just using ready made tools. We will be covering topics in system security, network security, attacking web applications and services, exploitation techniques, malware and binary analysis and task automation.
 
-===================Module 2 : System Programming And Security=============================
+### Module 1 : Python Language Essentials
 
-1.File Handling - Done
-2.Directory Navigation - Done
-3.Process Creation - Done
-4.Threading - Done
-5.Threading and Queues - Done
-6.Signals and IPC - Done
-7.Subprocess - Done
+### Module 2 : System Programming
 
-Projects
 
-1.Read Var/log/messages and find all the logs in it which pertain to usb and print 
-them out seperately - Done 
+1. Read Var/log/messages and find all the logs in it which pertain to usb and print them out seperately - Done 
 2. Create a Program which can recursively traverse directories and Print the file
 listing in the a hirerachial way - Done
 
@@ -24,51 +17,26 @@ A
 - - - - B
 - - - - - - - - c.out
 
-3.for any given filename list out all the stats releated to the file size , creation time , path , etc - Done
+3. for any given filename list out all the stats releated to the file size , creation time , path , etc - Done
 
-4.Based on the knowledge you have gained in the network programming module, 
-create a multi-threaded port scanner in Python which uses SYN Scanning
+4. Based on the knowledge you have gained in the network programming module, create a multi-threaded port scanner in Python which uses SYN Scanning
 
-5.Create a list of FTP sites 
-Create a WorkerThread and Queue which can login to these sites and list the root directory and exit
-use 5 threads for this job and 10 FTP sites - Done
+5. Create a list of FTP sites Create a WorkerThread and Queue which can login to these sites and list the root directory and exit use 5 threads for this job and 10 FTP sites - Done
 
-6.There is a locking mechanism available in the Thread class which you can use to lock resources for dedicated use
+6. There is a locking mechanism available in the Thread class which you can use to lock resources for dedicated use
 
-7. Explore the multiprocessing module in Python.How does it leverage multi-core setups?
-Program the TCP SYN scanner using multiprocessing
+7. Explore the multiprocessing module in Python.How does it leverage multi-core setups? Program the TCP SYN scanner using multiprocessing
 
-8. Create a TCP server which listens to a port
-Implement signals to ensure it automatically shuts down after a pre-configured duration, which is given via command line
-e.g. tcp-server –s 100
-shutdown after listening to port for 100 seconds
+8. Create a TCP server which listens to a port Implement signals to ensure it automatically shuts down after a pre-configured duration, which is given via command line e.g. tcp-server –s 100 shutdown after listening to port for 100 seconds
 
-=================================================================
+### Module 3: Network Security
 
-
-===========================Module 3: Network Programming And Security===========================
-
-1. Client Server Programming Basics
-2. Socket Server Framework
-Projects
 1.Create a simple Echo Server to handle 1 client
     Create a Multi-Threaded Echo Server
     Create a Multi-Process Echo Server
     Create a Non-Blocking Multiplexed Echo Server using Select()
 
-=========================================================================================
-
-
-Module 4 : Web Application Security
-Part 1: Fetching Web Pages
-Part 2: Parsing HTML
-Part 3: Coding a Screen Scraper
-Part 4: Form Parsing and Submission with Mechanize
-Part 5: Stateful Web Application Browsing with Mechanize
-Part 6: XML Parsing and Web Services
-
-Projects
-
+### Module 4 : Attacking Web Applications
 
 1. If you try and download a very large file, then how do you monitor the progress?
 Research on urllib.urlretrieve() to solve this problem - Done
@@ -103,76 +71,54 @@ Research on .quote() and .quote_plus() and illustrate how they can help
 
 11. For each of the OWASP Top 10 create Python scripts which can automate the testing of the vulnerability 
 
+### Module 5 : Exploitation Techniques
+
+### Module 6 : Reverse Engineering
+
+### Module 7: Automation In Python
 
 
-============================== PROJECT======================================
+### Module 8: Further Study and Projects
 
-
-============================================================================
-
-
-Module 7: Automation In Python
-
-1.Using Pexpect
-2.SSH AutoMation with Paramiko - Done
-3.SSH Dictionary Attack with Paramiko - Done
-4.SFTP with Paramiko - 
-5.Automating Nmap - Done - Do some exercise with metasploitable1/2
-
-Module 8: Further Study and Projects
-1. Project 1
-2. Project 2
-3. Project 3
-
-===========================PROJECT 1============================= 
 •Create a Bot which can use Twitter as C&C
 •It will scan the public tweets using a #tag and a command will be inserted in the Tweet
 •e.g. Tweet
-#exec129834 ipconfig –a
+`#exec129834 ipconfig –a`
 The bot will now execute “ipconfig –a” and paste the results in Pastebin
-=================================================================
 
 
-===========================PROJECT 2============================= 
+
+ 
 •Create a automated Email Parser – when email is received in your account, this script 
 will automatically be triggered, it will then separate the attachments, store them in a 
 directly and upload them to online virus scan sites.
 •It will then forward the email to you if the online scans give a green signal!!
-=================================================================
 
 
-===========================PROJECT 3============================= 
+
+
 •Code a program which can read an EXE and dump interesting information such as 
 import/exports, disassembly, strings etc.
 •Basically a powerful Level 1 binary analysis tool before you put the EXE into a debugger
-=================================================================
 
-Module 9: Exam pattern And Mock Exam
-1. Mock Sample 1
-2. Mock Sample 2
-3. Mock Sample 3 
 
-===========================MOCK SAMPLE 1============================= 
+### Module 9: Exam pattern And Mock Exam
+
 We have setup a web server at http://XXX
 Code a Python Script to scrape the HTML and
 –list all the forms and respective fields
 –try SQL Injection on each of the fields using a database of possibilities from a given file
-•Submit the script and the form fields returning +ve for SQL Injection
-=================================================================
+Submit the script and the form fields returning +ve for SQL Injection
 
 
-===========================MOCK SAMPLE 2============================= 
+
 Create a Python script which allows you to inspect the “bind” network call and logs the 
 port and IP address used
 –Can be standalone or a Plugin
 –Works on Windows
-=================================================================
 
 
-===========================MOCK SAMPLE 3============================= 
-•Write a simple web crawler which fetch the robots.txt file of a website
-–run your crawler on the top 1000 sites a ranked by Alexa
-–report on the top 40 directory names which are disallowed for robots
-=================================================================
+
+Write a simple web crawler which fetch the robots.txt file of a website.Run your crawler on the top 1000 sites a ranked by Alexa.Report on the top 40 directory names which are disallowed for robots
 
 
