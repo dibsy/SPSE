@@ -6,15 +6,6 @@
 
 ### Module 2 : System Programming
 
-1.File Handling 
-2.Directory Navigation 
-3.Process Creation 
-4.Threading 
-5.Threading and Queues
-6.Signals and IPC
-7.Subprocess
-
-Projects
 
 1. Read Var/log/messages and find all the logs in it which pertain to usb and print them out seperately - Done 
 2. Create a Program which can recursively traverse directories and Print the file
@@ -40,26 +31,12 @@ A
 
 ### Module 3: Network Security
 
-1. Client Server Programming Basics
-2. Socket Server Framework
-Projects
 1.Create a simple Echo Server to handle 1 client
     Create a Multi-Threaded Echo Server
     Create a Multi-Process Echo Server
     Create a Non-Blocking Multiplexed Echo Server using Select()
 
 ### Module 4 : Attacking Web Applications
-
-
-
-Part 1: Fetching Web Pages
-Part 2: Parsing HTML
-Part 3: Coding a Screen Scraper
-Part 4: Form Parsing and Submission with Mechanize
-Part 5: Stateful Web Application Browsing with Mechanize
-Part 6: XML Parsing and Web Services
-
-Projects
 
 1. If you try and download a very large file, then how do you monitor the progress?
 Research on urllib.urlretrieve() to solve this problem - Done
@@ -100,17 +77,8 @@ Research on .quote() and .quote_plus() and illustrate how they can help
 
 ### Module 7: Automation In Python
 
-1.Using Pexpect
-2.SSH AutoMation with Paramiko - Done
-3.SSH Dictionary Attack with Paramiko - Done
-4.SFTP with Paramiko - 
-5.Automating Nmap - Done - Do some exercise with metasploitable1/2
 
 ### Module 8: Further Study and Projects
-1. Project 1
-2. Project 2
-3. Project 3
-
 
 •Create a Bot which can use Twitter as C&C
 •It will scan the public tweets using a #tag and a command will be inserted in the Tweet
@@ -135,10 +103,6 @@ import/exports, disassembly, strings etc.
 
 
 ### Module 9: Exam pattern And Mock Exam
-1. Mock Sample 1
-2. Mock Sample 2
-3. Mock Sample 3 
-
 
 We have setup a web server at http://XXX
 Code a Python Script to scrape the HTML and
