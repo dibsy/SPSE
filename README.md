@@ -2,20 +2,19 @@
 ## SPSE - Securitytube Python Scripting Expert Course Problems Solution
 #### The SecurityTube Python Scripting Expert (SPSE) is an online certification which will help you gain mastery over Python scripting and its application to problems in computer and network security. This course is ideal for penetration testers, security enthusiasts and network administrators who want to learn to automate tasks or go beyond just using ready made tools. We will be covering topics in system security, network security, attacking web applications and services, exploitation techniques, malware and binary analysis and task automation.
 
-### ==========Module 2 : System Programming And Security==========
+### Module 2 : System Programming And Security
 
-1.File Handling - Done
-2.Directory Navigation - Done
-3.Process Creation - Done
-4.Threading - Done
-5.Threading and Queues - Done
-6.Signals and IPC - Done
-7.Subprocess - Done
+1.File Handling 
+2.Directory Navigation 
+3.Process Creation 
+4.Threading 
+5.Threading and Queues
+6.Signals and IPC
+7.Subprocess
 
 Projects
 
-1.Read Var/log/messages and find all the logs in it which pertain to usb and print 
-them out seperately - Done 
+1. Read Var/log/messages and find all the logs in it which pertain to usb and print them out seperately - Done 
 2. Create a Program which can recursively traverse directories and Print the file
 listing in the a hirerachial way - Done
 
@@ -25,24 +24,17 @@ A
 - - - - B
 - - - - - - - - c.out
 
-3.for any given filename list out all the stats releated to the file size , creation time , path , etc - Done
+3. for any given filename list out all the stats releated to the file size , creation time , path , etc - Done
 
-4.Based on the knowledge you have gained in the network programming module, 
-create a multi-threaded port scanner in Python which uses SYN Scanning
+4. Based on the knowledge you have gained in the network programming module, create a multi-threaded port scanner in Python which uses SYN Scanning
 
-5.Create a list of FTP sites 
-Create a WorkerThread and Queue which can login to these sites and list the root directory and exit
-use 5 threads for this job and 10 FTP sites - Done
+5. Create a list of FTP sites Create a WorkerThread and Queue which can login to these sites and list the root directory and exit use 5 threads for this job and 10 FTP sites - Done
 
-6.There is a locking mechanism available in the Thread class which you can use to lock resources for dedicated use
+6. There is a locking mechanism available in the Thread class which you can use to lock resources for dedicated use
 
-7. Explore the multiprocessing module in Python.How does it leverage multi-core setups?
-Program the TCP SYN scanner using multiprocessing
+7. Explore the multiprocessing module in Python.How does it leverage multi-core setups? Program the TCP SYN scanner using multiprocessing
 
-8. Create a TCP server which listens to a port
-Implement signals to ensure it automatically shuts down after a pre-configured duration, which is given via command line
-e.g. tcp-server –s 100
-shutdown after listening to port for 100 seconds
+8. Create a TCP server which listens to a port Implement signals to ensure it automatically shuts down after a pre-configured duration, which is given via command line e.g. tcp-server –s 100 shutdown after listening to port for 100 seconds
 
 ### ==========Module 3: Network Programming And Security==========
 
