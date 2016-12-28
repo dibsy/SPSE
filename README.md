@@ -2,7 +2,9 @@
 ## SPSE - Securitytube Python Scripting Expert Course Problems Solution
 #### The SecurityTube Python Scripting Expert (SPSE) is an online certification which will help you gain mastery over Python scripting and its application to problems in computer and network security. This course is ideal for penetration testers, security enthusiasts and network administrators who want to learn to automate tasks or go beyond just using ready made tools. We will be covering topics in system security, network security, attacking web applications and services, exploitation techniques, malware and binary analysis and task automation.
 
-### Module 2 : System Programming And Security
+### Module 1 : Python Language Essentials
+
+### Module 2 : System Programming
 
 1.File Handling 
 2.Directory Navigation 
@@ -36,7 +38,7 @@ A
 
 8. Create a TCP server which listens to a port Implement signals to ensure it automatically shuts down after a pre-configured duration, which is given via command line e.g. tcp-server –s 100 shutdown after listening to port for 100 seconds
 
-### Module 3: Network Programming And Security
+### Module 3: Network Security
 
 1. Client Server Programming Basics
 2. Socket Server Framework
@@ -46,7 +48,7 @@ Projects
     Create a Multi-Process Echo Server
     Create a Non-Blocking Multiplexed Echo Server using Select()
 
-### Module 4 : Web Application Security
+### Module 4 : Attacking Web Applications
 
 
 
@@ -92,6 +94,9 @@ Research on .quote() and .quote_plus() and illustrate how they can help
 
 11. For each of the OWASP Top 10 create Python scripts which can automate the testing of the vulnerability 
 
+### Module 5 : Exploitation Techniques
+
+### Module 6 : Reverse Engineering
 
 ### Module 7: Automation In Python
 
