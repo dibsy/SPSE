@@ -36,7 +36,7 @@ A
 
 8. Create a TCP server which listens to a port Implement signals to ensure it automatically shuts down after a pre-configured duration, which is given via command line e.g. tcp-server –s 100 shutdown after listening to port for 100 seconds
 
-### ==========Module 3: Network Programming And Security==========
+### Module 3: Network Programming And Security
 
 1. Client Server Programming Basics
 2. Socket Server Framework
@@ -46,7 +46,7 @@ Projects
     Create a Multi-Process Echo Server
     Create a Non-Blocking Multiplexed Echo Server using Select()
 
-### ==========Module 4 : Web Application Security==========
+### Module 4 : Web Application Security
 
 
 
@@ -58,7 +58,6 @@ Part 5: Stateful Web Application Browsing with Mechanize
 Part 6: XML Parsing and Web Services
 
 Projects
-
 
 1. If you try and download a very large file, then how do you monitor the progress?
 Research on urllib.urlretrieve() to solve this problem - Done
@@ -94,7 +93,7 @@ Research on .quote() and .quote_plus() and illustrate how they can help
 11. For each of the OWASP Top 10 create Python scripts which can automate the testing of the vulnerability 
 
 
-### ==========Module 7: Automation In Python==========
+### Module 7: Automation In Python
 
 1.Using Pexpect
 2.SSH AutoMation with Paramiko - Done
@@ -102,60 +101,55 @@ Research on .quote() and .quote_plus() and illustrate how they can help
 4.SFTP with Paramiko - 
 5.Automating Nmap - Done - Do some exercise with metasploitable1/2
 
-### ==========Module 8: Further Study and Projects==========
+### Module 8: Further Study and Projects
 1. Project 1
 2. Project 2
 3. Project 3
 
-===========================PROJECT 1============================= 
+
 •Create a Bot which can use Twitter as C&C
 •It will scan the public tweets using a #tag and a command will be inserted in the Tweet
 •e.g. Tweet
-#exec129834 ipconfig –a
+`#exec129834 ipconfig –a`
 The bot will now execute “ipconfig –a” and paste the results in Pastebin
-=================================================================
 
 
-===========================PROJECT 2============================= 
+
+ 
 •Create a automated Email Parser – when email is received in your account, this script 
 will automatically be triggered, it will then separate the attachments, store them in a 
 directly and upload them to online virus scan sites.
 •It will then forward the email to you if the online scans give a green signal!!
-=================================================================
 
 
-===========================PROJECT 3============================= 
+
+
 •Code a program which can read an EXE and dump interesting information such as 
 import/exports, disassembly, strings etc.
 •Basically a powerful Level 1 binary analysis tool before you put the EXE into a debugger
-=================================================================
 
-### ==========Module 9: Exam pattern And Mock Exam==========
+
+### Module 9: Exam pattern And Mock Exam
 1. Mock Sample 1
 2. Mock Sample 2
 3. Mock Sample 3 
 
-===========================MOCK SAMPLE 1============================= 
+
 We have setup a web server at http://XXX
 Code a Python Script to scrape the HTML and
 –list all the forms and respective fields
 –try SQL Injection on each of the fields using a database of possibilities from a given file
-•Submit the script and the form fields returning +ve for SQL Injection
-=================================================================
+Submit the script and the form fields returning +ve for SQL Injection
 
 
-===========================MOCK SAMPLE 2============================= 
+
 Create a Python script which allows you to inspect the “bind” network call and logs the 
 port and IP address used
 –Can be standalone or a Plugin
 –Works on Windows
-=================================================================
 
 
-===========================MOCK SAMPLE 3============================= 
-•Write a simple web crawler which fetch the robots.txt file of a website
-–run your crawler on the top 1000 sites a ranked by Alexa
-–report on the top 40 directory names which are disallowed for robots
-=================================================================
+
+Write a simple web crawler which fetch the robots.txt file of a website.Run your crawler on the top 1000 sites a ranked by Alexa.Report on the top 40 directory names which are disallowed for robots
 
 
