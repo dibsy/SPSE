@@ -29,3 +29,20 @@ pkts = sniff(iface="eth0",filter="icmp",count=3)
 #Lamda
 pkts = sniff(iface="eth0",filter="icmp",count=3,prn=lambda x: x.summary())pkts = sniff(iface="eth0",filter="icmp",count=3,prn=lambda x: x.summary())
 
+#Write to packet to a pcap file
+wrpcap("demo.cap",pkts)
+
+#Read from cap
+rdpcap("demo.cap")
+
+#Export packet as base64 encoded
+export_object(str(pkts[0]))
+
+#Import packet from base64
+newPkt = import_object()
+
+#Export packet as string
+str(pkts[0])
+
+#import packet from string
+FishHeader e.g. Ether(pkt_string)
