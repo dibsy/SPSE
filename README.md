@@ -3,9 +3,8 @@
 #### The SecurityTube Python Scripting Expert (SPSE) is an online certification which will help you gain mastery over Python scripting and its application to problems in computer and network security. This course is ideal for penetration testers, security enthusiasts and network administrators who want to learn to automate tasks or go beyond just using ready made tools. We will be covering topics in system security, network security, attacking web applications and services, exploitation techniques, malware and binary analysis and task automation.
 
 ### Module 1 : Python Language Essentials
-
+-
 ### Module 2 : System Programming
-
 
 1. Read Var/log/messages and find all the logs in it which pertain to usb and print them out seperately - Done 
 2. Create a Program which can recursively traverse directories and Print the file
@@ -28,7 +27,7 @@ A
 7. Explore the multiprocessing module in Python.How does it leverage multi-core setups? Program the TCP SYN scanner using multiprocessing
 
 8. Create a TCP server which listens to a port Implement signals to ensure it automatically shuts down after a pre-configured duration, which is given via command line e.g. tcp-server –s 100 shutdown after listening to port for 100 seconds
-
+-
 ### Module 3: Network Security
 
 1. Create a simple Echo Server to handle 1 client
@@ -38,8 +37,8 @@ A
 2. Create a Packet Sniffer using Raw Sockets which can parse TCP packets - parse individuals fields
 3. Create a sniffer which uses a fliter to only print details of an HTTP packet packet (TCP, Port 80)- Also dump the data
 4. Create a Packet Sniffer with Scapy for HTTP protocol and print out the HTTP Headers and the data in GET/POST
-   
-- ### Module 4 : Attacking Web Applications
+-   
+### Module 4 : Attacking Web Applications
 
 1. If you try and download a very large file, then how do you monitor the progress?
 Research on urllib.urlretrieve() to solve this problem - Done
@@ -73,14 +72,13 @@ Research on .quote() and .quote_plus() and illustrate how they can help
 •inserts into DB with details of Form fields
 
 11. For each of the OWASP Top 10 create Python scripts which can automate the testing of the vulnerability 
-
+-
 ### Module 5 : Exploitation Techniques
-
+-
 ### Module 6 : Reverse Engineering
-
+-
 ### Module 7: Automation In Python
-
-
+-
 ### Module 8: Further Study and Projects
 
 •Create a Bot which can use Twitter as C&C
@@ -106,7 +104,7 @@ import/exports, disassembly, strings etc.
 
 -
 ### Module 9: Exam pattern And Mock Exam
--
+
 We have setup a web server at http://XXX
 Code a Python Script to scrape the HTML and
 –list all the forms and respective fields
@@ -123,5 +121,5 @@ port and IP address used
 
 
 Write a simple web crawler which fetch the robots.txt file of a website.Run your crawler on the top 1000 sites a ranked by Alexa.Report on the top 40 directory names which are disallowed for robots
-
+-
 
