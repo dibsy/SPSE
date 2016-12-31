@@ -37,8 +37,9 @@ A
    Create a Non-Blocking Multiplexed Echo Server using Select()
 2. Create a Packet Sniffer using Raw Sockets which can parse TCP packets - parse individuals fields
 3. Create a sniffer which uses a fliter to only print details of an HTTP packet packet (TCP, Port 80)- Also dump the data
+4. Create a Packet Sniffer with Scapy for HTTP protocol and print out the HTTP Headers and the data in GET/POST
    
-### Module 4 : Attacking Web Applications
+- ### Module 4 : Attacking Web Applications
 
 1. If you try and download a very large file, then how do you monitor the progress?
 Research on urllib.urlretrieve() to solve this problem - Done
@@ -103,9 +104,9 @@ directly and upload them to online virus scan sites.
 import/exports, disassembly, strings etc.
 •Basically a powerful Level 1 binary analysis tool before you put the EXE into a debugger
 
-
+-
 ### Module 9: Exam pattern And Mock Exam
-
+-
 We have setup a web server at http://XXX
 Code a Python Script to scrape the HTML and
 –list all the forms and respective fields
