@@ -1,6 +1,9 @@
+
+
 import socket
 import struct
 import binascii
+
 
 def print_mac_address(msg,mac):
 	blocks = [mac[x:x+2] for x in xrange(0, len(mac), 2)]
@@ -12,6 +15,9 @@ def print_ip_address(msg,ip):
 	ip = [int(i, 16) for i in reversed(octets)]
 	ip_formatted = '.'.join(str(i) for i in ip)
 	print msg,ip_formatted
+
+print "Please note it will take sometime to show output"
+
 
 rawSocket = socket.socket(socket.PF_PACKET,socket.SOCK_RAW,socket.htons(0x0806))
 pkt = rawSocket.recvfrom(2048)
@@ -27,6 +33,7 @@ dst_ip = binascii.hexlify(arp_hdr[8])
 #print src_ip
 #print dst_mac
 #print dst_ip
+
 print_mac_address("Source Mac:",src_mac)
 print "Source IP:",socket.inet_ntoa(arp_hdr[6])
 print_mac_address("Destination Mac:",dst_mac)

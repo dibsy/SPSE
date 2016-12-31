@@ -31,11 +31,13 @@ A
 
 ### Module 3: Network Security
 
-1.Create a simple Echo Server to handle 1 client
-    Create a Multi-Threaded Echo Server
-    Create a Multi-Process Echo Server
-    Create a Non-Blocking Multiplexed Echo Server using Select()
-
+1. Create a simple Echo Server to handle 1 client
+   Create a Multi-Threaded Echo Server
+   Create a Multi-Process Echo Server
+   Create a Non-Blocking Multiplexed Echo Server using Select()
+2. Create a Packet Sniffer using Raw Sockets which can parse TCP packets - parse individuals fields
+3. Create a sniffer which uses a fliter to only print details of an HTTP packet packet (TCP, Port 80)- Also dump the data
+   
 ### Module 4 : Attacking Web Applications
 
 1. If you try and download a very large file, then how do you monitor the progress?
