@@ -23,3 +23,9 @@ pkts[0].summary()
 #Hexdumping a packet
 hexdump(pkts[0])
 
+#Applying filters
+pkts = sniff(iface="eth0",filter="icmp",count=3)
+
+#Lamda
+pkts = sniff(iface="eth0",filter="icmp",count=3,prn=lambda x: x.summary())pkts = sniff(iface="eth0",filter="icmp",count=3,prn=lambda x: x.summary())
+
