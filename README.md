@@ -84,6 +84,12 @@
 
 ### Module 7: Automation In Python
 
+1. SSH Automation with Paramiko
+
+2. SSH Dictionary Attack with Paramiko
+
+3. SFTP With Paramiko
+
 ### Module 8: Further Study and Projects
 
 1. Create a Bot which can use Twitter as C&C.•It will scan the public tweets using a #tag and a command will be inserted in the Tweet e.g. Tweet. `#exec129834 ipconfig –a` .The bot will now execute “ipconfig –a” and paste the results in Pastebin
