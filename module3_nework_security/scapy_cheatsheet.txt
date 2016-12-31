@@ -1,0 +1,25 @@
+#Get List of Protocols
+ls()
+
+#Different configuration options
+conf
+
+IP().show()
+
+ls(IP)
+
+#Sniff on an interface and read 3 packets
+pkts = sniff(iface='eth0',count=3)
+
+#First Packet
+pkts[0]
+
+#Get the details of the packet in a structured format 
+pkts[0].show()
+
+#Get summary of the pkt
+pkts[0].summary()
+
+#Hexdumping a packet
+hexdump(pkts[0])
+

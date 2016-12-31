@@ -37,6 +37,7 @@ A
    Create a Non-Blocking Multiplexed Echo Server using Select()
 2. Create a Packet Sniffer using Raw Sockets which can parse TCP packets - parse individuals fields
 3. Create a sniffer which uses a fliter to only print details of an HTTP packet packet (TCP, Port 80)- Also dump the data
+4. Send an ARP Request Packet using Raw Sockets
    
 ### Module 4 : Attacking Web Applications
 
