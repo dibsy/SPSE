@@ -46,3 +46,25 @@ str(pkts[0])
 
 #import packet from string
 FishHeader e.g. Ether(pkt_string)
+
+#Layer 2 send spoofed packets
+
+sendp(Ehter()/IP(dst="google.com")/ICMP()/"XXX",iface="eth1",loop=1,inter=1
+
+Layer 3 
+- sr()
+- sr1()
+
+srp1(Ether()/IP(dst="google.com")/ICMP()/"XXX")
+
+Layer 2 
+- srp()
+- srp1()
+
+sr(IP(dst="google.com"),timeout=5)srp1()
+
+sr(IP(dst="google.com"),timeout=5)
+
+pkt = Ether(dst="ff:ff:ff:ff:ff:ff")/ARP(pdst=ip,hwdst="ff:ff:ff:ff:ff:ff")
+pkt = Ether(dst="ff:ff:ff:ff:ff:ff")/ARP(pdst=ip,hwdst="ff:ff:ff:ff:ff:ff")
+

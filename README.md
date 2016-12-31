@@ -33,10 +33,27 @@
    Create a Multi-Threaded Echo Server
    Create a Multi-Process Echo Server
    Create a Non-Blocking Multiplexed Echo Server using Select()
+
 2. Create a Packet Sniffer using Raw Sockets which can parse TCP packets - parse individuals fields
+
 3. Create a sniffer which uses a fliter to only print details of an HTTP packet packet (TCP, Port 80)- Also dump the data
+
 4. Create a Packet Sniffer with Scapy for HTTP protocol and print out the HTTP Headers and the data in GET/POST
-   
+
+5. Create a WiFi Sniffer and print out the unique SSIDs of the WiFi networks in your vicinity
+
+6. Create ARP Request packets for the local subnet. Send and Receive Responses and get results and publish.Find out how to get the local subnet automatically. 
+
+7. Create a DNS Poisoning tool similar to Dnsspoof using scapy
+
+8. Create a ARP MITM tool using scapy
+
+9. Create TCP SNY Scanner using Scapy
+
+10. Explore how to create a Fuzzer with Scapy
+
+11. Create a DNS Fuzzer with Scapy and try it against DNSspoof
+  
 ### Module 4 : Attacking Web Applications
 
 1. If you try and download a very large file, then how do you monitor the progress?Research on urllib.urlretrieve() to solve this problem
