@@ -92,6 +92,18 @@
 
 4. Install Pydbg to run on Python 2.7.x
 
+5. Modify the code to take a file loca1on as input and then automa1cally runs to  file
+
+6. Modify the program to include full crash dump details. Explore how you can get all the info using the u1ls module  
+
+7. For both send / recv calls read the arguments from the stack when the breakpoint is hit and print the contents out in an intelligible way coherent with the API documentation
+
+8. Create API monitors for the following: – Registry writes to “run on login/boot” – Opening / Wri1ng of files – Send / Recv on network. Once you create the above framework, get a malware or program sample and test against it 
+
+9. Setup Cuckoo Box
+
+10. Analyze a program with it and log – API calls – Files it reads / writes – Host it communicates with 
+
 ### Module 7: Automation In Python
 
 1. SSH Automation with Paramiko
