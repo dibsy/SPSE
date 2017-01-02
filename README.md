@@ -80,7 +80,17 @@
 
 ### Module 5 : Exploitation Techniques
 
+1. Write the list of processess in a CSV file.The first row should be the table columns name
+
 ### Module 6 : Reverse Engineering
+
+1. Take a DLL name as input and check if a given PE imports it and print the list of imports  
+
+2. Create a simple program which can disassemble the first 200 bytes of executable code 
+
+3. Create simple shellcode for a windows bind shell and then use pydasm to disassemble it
+
+4. Install Pydbg to run on Python 2.7.x
 
 ### Module 7: Automation In Python
 
