@@ -80,7 +80,8 @@
 
 ### Module 5 : Exploitation Techniques
 
-1. Write the list of processess in a CSV file.The first row should be the table columns name
+1. Using Immunity Debugger Python module list all the running process and show them in a new window
+2. Write the list of processess in a CSV file.The first row should be the table columns name
 
 ### Module 6 : Reverse Engineering
 
