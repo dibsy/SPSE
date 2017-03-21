@@ -10,10 +10,10 @@
 2. Create a Program which can recursively traverse directories and Print the file listing in the a hirerachial way - Done
 
  A
- - - - - a.txt
- - - - - b.txt
- - - - - B
- - - - - - - - - c.out
+ -- a.txt
+ -- b.txt
+ -- B
+ ----c.out
 
 3. For any given filename list out all the stats releated to the file size , creation time , path , etc - Done
 
