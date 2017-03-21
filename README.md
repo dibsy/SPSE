@@ -1,5 +1,5 @@
 # SPSE EXERCISES SOLUTIONS
-## SPSE - Securitytube Python Scripting Expert Course Problems Solution
+## SPSE - This is an automated tool collection written in Python for vulnerability assessment and exploitation. It also includes solution of Securitytube Python Scripting Expert Course Problems Solution
 #### The SecurityTube Python Scripting Expert (SPSE) is an online certification which will help you gain mastery over Python scripting and its application to problems in computer and network security. This course is ideal for penetration testers, security enthusiasts and network administrators who want to learn to automate tasks or go beyond just using ready made tools. We will be covering topics in system security, network security, attacking web applications and services, exploitation techniques, malware and binary analysis and task automation. Please note some solutions which are provided in this repository are taken from the the solutions provided by the instructor Vivek Ramachandran. Those programs ends with "*_spse_solution.py"
 
 ### Module 1 : Python Language Essentials
